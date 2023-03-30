@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SeguraNois Security</title>
+  </head>
+  <body>
+    <header>
+      <h1>Empresa de Segurança</h1>
+      <nav>
+        <ul>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="{{ url_for('login') }}">Login</a></li>
+        <li><a href="{{ url_for('cadastro') }}">Cadastro</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="servicos">
+        <h2>Nossos Serviços</h2>
+        <ul>
+          <li>Instalação de sensores de movimento</li>
+        </ul>
+      </section>
+      <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>
+          A Empresa de Segurança é líder em soluções de segurança desde 1995.
+          Com uma equipe de profissionais altamente treinados e tecnologia de
+          ponta, oferecemos serviços de segurança personalizados para atender às
+          necessidades específicas de cada cliente.
+        </p>
+        <p>
+          Nosso compromisso é garantir a segurança de nossos clientes e de suas
+          propriedades, fornecendo soluções eficazes e confiáveis.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>Empresa de Segurança &copy; 2023</p>
+    </footer>
+  </body>
+</html>
